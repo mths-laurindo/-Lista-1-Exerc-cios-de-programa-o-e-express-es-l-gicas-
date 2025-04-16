@@ -1,5 +1,20 @@
 Lista 2 - Exercicios (16/04/2025)
 
+
+4) Considere os conjuntos A = {x ∈ Z | n1 ≤ x ≤ n2} e B = {x ∈ Z | n3 ≤ x ≤ n4}, em que
+n1, n2, n3, n4 são inteiros. Elabore um pseudocódigo para um algoritmo que LÊ os valores de
+n1, n2, n3, n4, como um o de um inteiro x e ESCREVE se x pertence somente ao conjunto A,
+somente ao conjunto B, a ambos os conjuntos, ou nenhum deles.
+
+
+
+
+
+
+
+
+
+
 ---------------------------------------------------------------------------------
 
 5) Em uma certa disciplina, os alunos são avaliados por meio de três avaliações individuais com
