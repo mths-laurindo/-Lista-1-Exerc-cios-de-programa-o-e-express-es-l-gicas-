@@ -1,0 +1,39 @@
+Lista 2 - Exercicios (16/04/2025)
+
+---------------------------------------------------------------------------------
+
+5) Em uma certa disciplina, os alunos são avaliados por meio de três avaliações individuais com
+pontuações inteiras de até 10 pontos. Cada avaliação possui uma recuperação, onde o maior
+valor obtido entre a avaliação original e a recuperação é considerado. O resultado final (RF)
+da disciplina é calculado pela média aritmética simples das três avaliações. O resultado
+mínimo para aprovação na disciplina é 6. Alunos com frequência inferior a 75% são reprovados
+independentemente das notas obtidas.
+
+(a) Elabore um pseudocódigo para um algoritmo que LÊ os valores das três avaliações, das
+três recuperações e da frequência do aluno e ESCREVE o RF e a situação do aluno
+(Aprovado ou Reprovado). Caso o aluno não tenha realizado a recuperação de uma das
+avaliações, a nota será entrada como zero.
+ 
+Variáveis
+    nota1, nota2, nota3: número
+    freq: número
+    media: número
+Início
+    Escreva "Entre com as três notas:"
+    Leia nota1, nota2, nota3
+    Escreva "Entre com a frequência:"
+    Leia freq
+    media = round((nota1 + nota2+nota3) / 3)
+    Se media >= 6 && freq >= 75 então
+        Escreva "Aprovado"
+    Senão
+        Escreva "Reprovado"
+    FimSe
+Fim
+
+(b) A universidade quer mudar o sistema de avaliação para conceitos. São considerados os
+conceitos A (RF ≥ 9), B (9 > RF ≥ 8), C (8 > RF ≥ 7), D (7 > RF ≥ 6) e E (RF < 6). Adapte
+o pseudocódigo para ESCREVER o conceito do aluno ao invés do RF.
+
+
+-------------------------------------------------------------------------------
