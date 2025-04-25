@@ -1,0 +1,70 @@
+1. Elabore um pseudocódigo para um algoritmo que LÊ um número inteiro de referência,
+seguido de mais dez números inteiros e ESCREVE a quantidade de números maiores que o número de
+referência. Por exemplo, se a entrada for 5, 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, a saída deve ser 2. Utilize o
+comando Enquanto.
+
+Variáveis
+    numero, ref, contador, total: número
+Início
+    contador=0
+    total=0
+    
+    Escreva "Entre com um número referência:"
+        Leia ref
+    
+    Enquanto contador < 10 faça
+        Escreva "Digite outro número:"
+        Leia numero 
+            
+            Se numero > ref então
+            total=total+1
+            FimSe
+
+        contador=contador+1 
+    FimEnquanto
+
+    Escreva total
+
+Fim
+
+
+2. (a) Elabore um pseudocódigo para um algoritmo que LÊ um inteiro positivo 𝑛,
+seguido de 𝑛 números inteiros (assuma todos positivos) e ESCREVE o maior número lido. Utilize
+Enquanto. Em seguida, efetue um teste de mesa com a entrada 5, 7, 2, 15, 21, 15; a saída deve
+ser 21.
+
+Variáveis
+    n, i, numero, maior: número
+
+Início
+    Escreva "Digite um número:"
+    Leia n
+
+    i = 0
+    maior = 0
+
+    Enquanto i < n faça
+        Escreva "Digite um número:"
+        Leia numero
+
+        Se numero > maior então
+            maior = numero
+        FimSe
+
+        i = i + 1
+    FimEnquanto
+
+    Escreva "Maior número lido: ", maior
+Fim
+
+
+(b) Suponha agora não será informado o número de valores a serem lidos. No lugar, a leitura dos
+números é encerrada quando o usuário entrar com 0 (zero). Utilize Faça-Enquanto. Em seguida,
+efetue um teste de mesa com a entrada 7, 2, 15, 21, 15, 0; a saída deve ser 21
+
+
+
+
+3. Elabore um pseudocódigo para um algoritmo que LÊ um inteiro positivo e ESCREVE a
+quantidade de dígitos do número lido. Em seguida, efetue um teste de mesa com a entrada 1729; a
+saída deve ser 4. Dica: Utilize o operador de divisão inteira.
