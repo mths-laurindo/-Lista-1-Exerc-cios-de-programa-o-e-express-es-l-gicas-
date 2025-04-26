@@ -62,9 +62,46 @@ Fim
 números é encerrada quando o usuário entrar com 0 (zero). Utilize Faça-Enquanto. Em seguida,
 efetue um teste de mesa com a entrada 7, 2, 15, 21, 15, 0; a saída deve ser 21
 
+Variáveis
+numero, maior: número
+
+Início
+maior = 0
+
+    Faça
+Escreva "Digite um número (0 para sair):"
+
+Leia numero
+
+    Se numero > maior então
+    maior = numero
+    FimSe
+
+    Enquanto numero < 0
+
+Escreva "Maior número lido: ", maior
+
+Fim
 
 
 
 3. Elabore um pseudocódigo para um algoritmo que LÊ um inteiro positivo e ESCREVE a
 quantidade de dígitos do número lido. Em seguida, efetue um teste de mesa com a entrada 1729; a
 saída deve ser 4. Dica: Utilize o operador de divisão inteira.
+
+Variáveis
+numero, contador: número
+
+Início
+
+Escreva "Digite um número:"
+Leia numero
+contador = 0
+
+Enquanto numero > 0 faça
+    numero = numero div 10
+    contador = contador + 1
+FimEnquanto
+
+Escreva "Quantidade de dígitos: ", contador
+Fim
